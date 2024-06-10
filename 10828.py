@@ -30,4 +30,5 @@ def switch_case(command):
 for i in range(n):
     command = sys.stdin.readline().split()
     switch_case(command)
+
     
