@@ -7,7 +7,6 @@ max_cut = max(trees)
 answer = 0
 
 while min_cut <= max_cut:
-    print(answer)
     cut = (min_cut + max_cut)//2
     cut_tree = sum([tree - cut for tree in trees if tree > cut])
     if cut_tree >= M:
